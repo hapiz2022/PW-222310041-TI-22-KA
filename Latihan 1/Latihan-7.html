@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan-7</title>
+    <style>
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        input[type=text], input[type=date], input[type=email], input[type=password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]{
+            width: 25%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=reset] {
+            width: 25%;
+            background-color: #c44b45;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>Latihan Form</h3>
+    <div>
+        <form>
+            <label for="npm">NPM</label>
+            <input type="text" id="npm" name="npm_mhs" placeholder="Your NPM">
+    
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" placeholder="Your Full Name">
+    
+            <label for="email">Email</label>
+            <input type="email" id="email_mhs" name="email_mhs" placeholder="Your Email">
+    
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pass_mhs" placeholder="Your Password">
+    
+            <label for="placeBirth">Place of Birth</label>
+            <input type="text" id="placeofbirth" name="place_mhs" placeholder="Your Place of Birth">
+    
+            <label for="birthDate">Birthdate</label>
+            <input type="date" id="birthdate" name="date_mhs" placeholder="Your Birthdate">
+    
+            <label for="gender_mhs">Gender</label><br>
+            <input type="radio" id="male" name="gender_mhs" value="MALE">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender_mhs" value="FEMALE">
+            <label for="female">Female</label><br><br>
+    
+            <label for="addres">Address</label>
+            <textarea name="addr" id="address" cols="30" rows="10" placeholder="Your Address"></textarea>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
